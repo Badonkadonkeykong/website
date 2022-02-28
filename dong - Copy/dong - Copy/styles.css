@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Karla:wght@600;700;800&family=Montserrat:wght@500&family=Mukta:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #24252a;
+}
+
+header {
+  background: #1f1e22;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  height: 125px;
+}
+
+.logo {
+  background-color: transparent;
+  cursor: pointer;
+  max-width: 100px;
+  height: 100px;
+  margin-left: 30px;
+}
+
+li,
+a,
+.joinbtn {
+  background: #1f1e22;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #edf0f1;
+  text-decoration: none;
+  list-style: none;
+}
+
+ul,
+li {
+  background: #1f1e22;
+  display: inline;
+  padding: 15px;
+  margin: 15px;
+}
+
+nav li a:hover {
+  color: red;
+  transition: all 0.3s ease 0s;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+nav {
+  background: #1f1e22;
+}
+
+svg {
+  background-color: transparent;
+}
+.joinbtn {
+  color: red;
+  border-radius: 10px;
+  background: gold;
+  border-style: solid;
+  border-color: red;
+  margin: 15px;
+  padding: 15px;
+  margin-right: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.joinbtn:hover {
+  background-color: red;
+  border-color: gold;
+  color: gold;
+}
+
+.bannertitle {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  margin-left: 15%;
+}
+.bannerimg {
+  height: auto;
+  width: 100%;
+}
+
+.banner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  text-align: justify;
+}
+
+.mission {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  background: transparent;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10px;
+}
+
+.mission h2 {
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.wpbtn,
+.htbbtn {
+  font-family: "Bebas Neue", sans-serif;
+  padding: 20px 3%;
+  background-color: gold;
+  border-color: red;
+  color: red;
+  border-radius: 10px;
+  border-style: solid;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 25px;
+  padding: 12px 16px;
+}
+
+.wpbtn:hover,
+.htbbtn:hover {
+  border-color: gold;
+  background-color: red;
+  color: gold;
+}
+
+.t_title {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  background: transparent;
+  margin-bottom: 20px;
+  margin-top: 75px;
+}
+
+.card_liquidity {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.p_liquidity {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 85px;
+}
+
+.card_ts {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.p_ts {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.card_or {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 35px;
+}
+
+.p_or {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 37px;
+}
+
+.card_burned {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.p_burned {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 75px;
+}
+
+.card_reflections {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 50px;
+  margin-left: 95px;
+}
+
+.p_reflections {
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  color: gold;
+  font-size: 16px;
+  text-align: center;
+  background: transparent;
+  position: absolute;
+  z-index: 2;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.tokenomics {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card a {
+  background-color: transparent;
+}
+
+.card a:hover {
+  color: #0078ff;
+  text-decoration: underline;
+}
+
+.imgcard {
+  height: 220px;
+  width: 350px;
+  display: block;
+}
+
+.jointitle {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  background: transparent;
+  margin-top: ;
+  margin-bottom: 20px;
+}
+
+.buy {
+  margin: 0 90 0 90;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.howto {
+  border-radius: 35px;
+  height: 500px;
+}
+
+.pepeimg {
+  height: 450px;
+  width: 500px;
+}
+
+. {
+}
+.bottombanner {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.slurpdong {
+  margin-top: 20px;
+}
+footer p {
+  background: #111;
+  height: auto;
+  width: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  align-content: center;
+}
+
+.mobile_links {
+  display: none;
+}
+
+.footer-content p {
+  padding: 30px;
+}
+
+@media only screen and (max-width: 1010px) {
+  #nav_links {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .mobile_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mission {
+    margin-top: 5vh;
+  }
+
+  .mobile_links ul {
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mobile_links ul li a {
+    margin: 0;
+    padding: 0;
+    flex-shrink: 5;
+  }
+
+  .mobile_links img {
+    height: 3vh;
+    background-color: #1f1e22;
+  }
+
+  .pastapepe {
+    margin-top: 20px;
+  }
+
+  .slurpdong {
+    display: none;
+  }
+}
